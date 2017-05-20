@@ -14,7 +14,7 @@ module.exports = function(app) {
 			admin = true;
 		}
 		
-		res.render('admin', {superAdmin: admin});
+		res.render('admin', {admin:true, superAdmin: admin});
 		
 	});
 
